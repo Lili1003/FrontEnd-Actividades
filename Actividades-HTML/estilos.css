@@ -1,0 +1,71 @@
+.pasteles1, .pasteles2{
+    font-size: 0;
+    text-align: center;
+}
+
+.pasteles1 .pastelesLista,
+.pasteles2 .pastelesLista{
+    display: inline-block;
+    font-size: inherit;
+
+}
+
+.pasteles1 .pastelesLista{width: 25%; max-width: 345px;}
+.pasteles2 .pasteles2{width: 33.3%; max-width: 345px;}
+
+.pastelesLista img{
+    height: 200px;
+    width: 150px;
+}
+
+text{
+    align-self: left;
+    align-content: flex-end;
+}
+
+.im{
+    float: left;
+    width: 29%;
+}
+
+.textos{
+    float: left;
+    width: 29%;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    width: 400 px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li{
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 600px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.sabor .pan{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-size: 20px;
+}
+
+head{
+    background-color: navy;
+}
